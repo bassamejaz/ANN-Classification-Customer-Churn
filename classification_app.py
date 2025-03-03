@@ -6,7 +6,7 @@ import streamlit as st
 
 
 #loading the trained model
-model = tf.keras.models.load_model("model.h5")
+model = tf.keras.models.load_model("classification_model.h5")
 
 # Loading the encoders and scalar
 with open("label_encoder_gender.pkl", "rb") as file:
